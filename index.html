@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Logos del proyecto encriptador/favicon.ico">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <!---///Sección 01/// -->
+    <header>
+        <a href="#" rel="">
+            <img src="./Logos del proyecto encriptador/logo.svg" alt="logito alura" class="logo">
+        </a>
+    </header>
+    <!--///Sección 02///-->
+    <main>
+        <section class="Encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./Logos del proyecto encriptador/aviso.svg" alt="Imagen aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./Logos del proyecto encriptador/muñeco.svg" alt="Imagen-muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+    <!--//Sección 03: Final de la página!-->
+    <footer>
+        <p class="Grupo ONE G6">&copy; Grupo ONE G6 2024 - Proyecto Encriptador de texto - Javier Barrera </p>
+        <a href="#" rel="">
+            <img src="./Logos del proyecto encriptador/github.svg" alt="Logo Github" class="Git">
+        </a>
+    </footer>
+    <script src="./Javascript/encriptador.js"></script>
+</body>
+</html>
